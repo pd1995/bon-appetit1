@@ -1,0 +1,139 @@
+@import 'custom';
+@import "~bootswatch/dist/cyborg/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/cyborg/bootswatch";
+
+
+
+
+.carousel-caption {
+	top: 41%;
+	font-size:30px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+ .carousel-caption-blur{
+ background: #313438;
+ opacity: 0.6;
+
+}
+.img-responsive{
+display: block;
+max-width: 100%;
+height: auto;
+border:.5em solid black;
+ }
+ .abs{
+ display:flex;
+ flex-direction:row;
+ 
+ }
+.jumbotron{
+display:flex;
+flex-direction:column;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/img/banner-bg_3_1920x700.jpg");
+	background-repeat:no-repeat;
+	height:500%;
+	font-size:20px;
+	color:white;
+}
+.two{
+	background:transparent;
+	color:white;
+	font-size:20px;
+	;
+}
+.display-4{
+	color:green;
+}
+.menu-restaurant{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.menu-restaurant .menu-title {
+    float: left;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFB03B;
+}
+.menu-restaurant .menu-line {
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.menu-restaurant .menu-price {
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-restaurant .menu-subtitle {
+    display: block;
+    float: left;
+    color: #B1B1B1;
+    font-family: Satisfy,'Open Sans',arial;
+    font-size: 1.2rem;
+}
+.menu-restaurant span.clearfix {
+    position: relative;
+    display: block;
+}
+
+#menu-flters ul li a.active, #menu-flters ul li a:hover {
+    background: #FFB03B;
+    color: #fff;
+    border: 1px solid #FFB03B;
+}
+#menu-flters ul li {
+    display: inline-block;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+#menu-flters ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #565656;
+    border-radius: 0px;
+    border: 1px solid #BBBBBB;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+ @media only screen and (max-width: 768px) {
+.carousel-caption {
+top:20%;
+}
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
